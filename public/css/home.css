@@ -1,0 +1,67 @@
+/* global ver = mobile */
+html {
+    margin: 0;
+    overflow-x: none;
+    text-align: center;
+    padding: none;
+}
+.container {
+    padding-right: 5vmax;
+    padding-left: 5vmax;
+}
+nav {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+} nav img {
+    margin: auto;
+}
+#preview {
+    width: 100%;
+}
+
+/* MASONRY */
+.imgal-img {
+    border: 2px solid white;
+}
+/* .imgal-container {
+    margin: auto;
+} */
+/* .img-list {
+    border: blue 2px;
+    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-wrap: wrap;
+    width: 100%;
+} .img-list > img {
+    width: 50%;
+    width: 100%;
+    height: auto;
+} */
+/* IMG MOODAL DOWNLOAD */
+.downloadImg {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    padding: 15px;
+} .downloadImg:hover {
+    text-decoration: none;
+}
+
+
+@media (min-width: 800px) {
+    .flex-desk {
+        display: flex;
+    }
+    .preview {
+        width: 50%;
+    }
+    #preview {
+        width: 80%;
+        float: left;
+    }
+}

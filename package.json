@@ -1,0 +1,26 @@
+{
+  "name": "imgsource",
+  "version": "1.0.0",
+  "description": "anon publick image sharing center",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "upload",
+    "image",
+    "express",
+    "node"
+  ],
+  "author": "Lucky Ardhika",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "node-fetch": "^2.0.0",
+    "path": "^0.12.7"
+  }
+}
