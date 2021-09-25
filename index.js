@@ -17,6 +17,7 @@ app.use(express.json()); // json reader
 app.set('view engine', 'ejs'); // set up ejs for templating
 app.use(express.static(upload_dir)); // image files ( upload ), used or useleess?
 app.use(express.static(path.join(__dirname, 'public'))); // styling
+app.use(express.static(path.join(__dirname, 'pwa'))); // make public pwa static dir
 
 const filetypes = ['image/png', 'image/jpeg', 'image/jpg', 'image/pic', 'image/bmp', 'image/webp', 'image/jfif,'];
 
