@@ -4,7 +4,7 @@
   "description": "anon publick image sharing center",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "upload",
