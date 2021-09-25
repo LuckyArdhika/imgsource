@@ -13,8 +13,18 @@ nav {
     background-color: blue;
     padding: 20px;
     text-align: center;
-} nav img {
+} nav h1 span {
+    color: white;
+    background-color: black;
+    padding: 0 5px 0 5px;
+} h1 {
+    color: black;
+    background-color: white;
+    width: fit-content;
+    text-align: center;
     margin: auto;
+    padding: 0 5px 0 5px;
+
 }
 #preview {
     width: 100%;
